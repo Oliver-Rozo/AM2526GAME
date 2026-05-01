@@ -1,0 +1,123 @@
+{
+  "scenes": [
+    {
+      "id": "hospital",
+      "title": "Hospital Room",
+      "text": "You wake up from your coma in a hospital and see Brian waiting for you.",
+      "background": "hospital.png",
+
+      "buttons": [
+        {
+          "id": "takeJob",
+          "text": "Take the job",
+          "nextScene": "office",
+          "health": 0,
+          "food": 0,
+          "keys": 0,
+          "brianFriendship": 1,
+          "show": true
+        },
+        {
+          "id": "refuseJob",
+          "text": "Refuse the job",
+          "nextScene": "bar",
+          "health": 0,
+          "food": 0,
+          "keys": 0,
+          "brianFriendship": -1,
+          "show": true
+        },
+        {
+          "id": "talkGarfield",
+          "text": "Talk to Garfield",
+          "nextScene": "hospital",
+          "health": 0,
+          "food": 1,
+          "keys": 0,
+          "brianFriendship": 0,
+          "show": false
+        },
+        {
+          "id": "talkBrian",
+          "text": "Talk to Brian",
+          "nextScene": "office",
+          "health": 0,
+          "food": 0,
+          "keys": 0,
+          "brianFriendship": 2,
+          "show": true
+        },
+        {
+          "id": "fightStewie",
+          "text": "Fight Stewie",
+          "nextScene": "gameover",
+          "health": -20,
+          "food": 0,
+          "keys": 0,
+          "brianFriendship": 0,
+          "show": false
+        }
+      ]
+    },
+
+    {
+      "id": "office",
+      "title": "Government Office",
+      "text": "Brian explains the mission and asks for your help to stop Stewie.",
+      "background": "office.png",
+
+      "buttons": [
+        {
+          "id": "takeJob",
+          "text": "Accept Mission",
+          "nextScene": "castle",
+          "health": 0,
+          "food": 0,
+          "keys": 1,
+          "brianFriendship": 2,
+          "show": true
+        },
+        {
+          "id": "refuseJob",
+          "text": "Leave Office",
+          "nextScene": "hospital",
+          "health": 0,
+          "food": 0,
+          "keys": 0,
+          "brianFriendship": -1,
+          "show": true
+        },
+        {
+          "id": "talkGarfield",
+          "text": "Talk to Garfield",
+          "nextScene": "office",
+          "health": 0,
+          "food": 1,
+          "keys": 0,
+          "brianFriendship": 0,
+          "show": false
+        },
+        {
+          "id": "talkBrian",
+          "text": "Talk to Brian",
+          "nextScene": "office",
+          "health": 0,
+          "food": 0,
+          "keys": 0,
+          "brianFriendship": 1,
+          "show": true
+        },
+        {
+          "id": "fightStewie",
+          "text": "Fight Stewie",
+          "nextScene": "gameover",
+          "health": -20,
+          "food": 0,
+          "keys": 0,
+          "brianFriendship": 0,
+          "show": false
+        }
+      ]
+    }
+  ]
+}
