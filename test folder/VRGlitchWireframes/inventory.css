@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+    background-color: #202020;
+}
+header{
+    border-bottom: 2px solid lightgreen;
+    padding: 15px; 
+    font-size: 3rem;
+    text-align: center;
+    background-color: #508050;
+}
+header h1{
+    margin: 0px;
+}
+#health-bar{
+    border: 10px solid white;
+    margin: 50px;
+    background-color: red;
+    width: 50%;
+    justify-self: center;
+}
+#inv-box{
+    margin-top: 150px;
+    display:flex;
+    justify-content: space-around;
+    
+}
+#placeholder1{
+    background-color: red;
+    width:150px;
+    height:150px;
+}
+#placeholder2{
+    background-color: #00ff00;
+    width:150px;
+    height:150px;
+}
+#placeholder3{
+    background-color: #0000ff;
+    width:150px;
+    height:150px;
+}
